@@ -1,29 +1,33 @@
-# ONP_calculator_C
-Made as an Algorithms and Data Structure Project for my 2 semester on Gdansk University of Technology.
+# ONP Calculator in C
 
-Author: Karolina Glaza ( https://github.com/kequel )
+Reverse Polish Notation (RPN) calculator written in C, developed as part of the Algorithms and Data Structures course in my second semester at Gdańsk University of Technology. The calculator allows users to input mathematical equations, convert them to Reverse Polish Notation (ONP), and calculate the result.
 
-### Version 1.0. 
+## Author
+- Karolina Glaza [GitHub](https://github.com/kequel)
 
-Version 2.0 includes Html, JavaScript and WebAssembly. You can find it here: //TO DO// 
+### Version
+- Current version: **1.1**
+- Future version: **2.0** (To include HTML, JavaScript, and WebAssembly) - work in progress
 
-1. Programm asks for the number of equations that you want to do.
-2. Programm shows the Reversed Polish Notation (ONP) conversion, counting process and result.
-3. You can only use positive integers
-4. Available operations:
-   - a + b
-   - a - b
-   - a * b
-   - a / b
-   - Na -> negation (ex. N3 = -3)
-   - IF ( a , b , c ) -> if a>0 return b, otherwise c
-   - MIN ( a , b , c )
-   - MAX ( a , b , c )
-   - ( ... ) -> parentheses
-5. The formula must end with a "."
-6. If the programm finds division by 0, it will write ERROR
+## Features
+1. The program prompts you to enter the number of equations to process.
+2. Converts the input formula to Reverse Polish Notation (RPN/ONP) and calculates the result.
+3. Only supports positive integers.
+4. Supports the following operations:
+   - `a + b`: Addition
+   - `a - b`: Subtraction
+   - `a * b`: Multiplication
+   - `a / b`: Division (with a check to prevent division by zero)
+   - `Na`: Negation (e.g., `N3` becomes `-3`)
+   - `IF (a, b, c)`: If `a > 0`, return `b`; otherwise return `c`
+   - `MIN (a, b, c)`: Returns the smallest value
+   - `MAX (a, b, c)`: Returns the largest value
+   - `(...)`: Parentheses are supported for grouping operations.
+5. The formula must end with a period (`.`).
+6. Division by zero will result in an "ERROR" message.
 
-How to use, example:
+## Example Usage
+When prompted, enter the number of equations and provide the formulas. Example:
 
 ```plaintext
    NUMBER OF EQUATIONS:
