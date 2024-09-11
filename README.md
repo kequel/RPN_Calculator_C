@@ -7,7 +7,7 @@ Reverse Polish Notation (RPN) calculator written in C, developed as part of the 
 
 ### Version
 - Current version: **1.1**
-- Future version: **2.0** (To include HTML, JavaScript, and WebAssembly) - work in progress
+- Future version: **2.0** - work in progress
 
 ## Features
 1. The program prompts you to enter the number of equations to process.
