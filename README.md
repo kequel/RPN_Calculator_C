@@ -1,13 +1,13 @@
-# ONP Calculator in C
+# RPN Calculator in C
 
-Reverse Polish Notation (RPN) calculator written in C, developed as part of the Algorithms and Data Structures course in my second semester at Gdańsk University of Technology. The calculator allows users to input mathematical equations, convert them to Reverse Polish Notation (ONP), and calculate the result.
+Reverse Polish Notation (RPN) calculator written in C, developed as part of the Algorithms and Data Structures course in my second semester at Gdańsk University of Technology. The calculator allows users to input mathematical equations, convert them to Reverse Polish Notation, and calculate the result.
 
 ## Author
 - Karolina Glaza [GitHub](https://github.com/kequel)
 
 ### Version
 - Current version: **1.1**
-- Future version: **2.0** - work in progress
+- Future version: **2.0** with JavaScript - work in progress
 
 ## Features
 1. The program prompts you to enter the number of equations to process.
